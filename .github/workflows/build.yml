@@ -24,4 +24,4 @@ jobs:
         run: docker build -t html-template:latest .
 
       - name: Push Docker Image to Docker Hub
-        run: docker push your-dockerhub-username/html-template:latest
+        run: docker push haithemboubaker/html-template:latest
